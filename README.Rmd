@@ -1,0 +1,59 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# fastproj
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+The goal of fastproj is for fast and convenient population projection, and to provide corresponding Word reports.
+
+## Installation
+
+You can install the development version of fastproj like so:
+
+``` r
+devtools::install_github("yanyuteng/fastproj")
+library(fastproj)
+```
+
+## Example
+
+This is a basic example which shows you how to solve a common problem:
+
+```{r example}
+library(fastproj)
+infile_pop = read_pop('~/desktop/Pop_Projection/1_Input/Data_Population.xlsx') # 1. input the baseline population
+
+inparm_scene = read_param('~/desktop/Pop_Projection/1_Input/Data_Parameter.xlsx') # 2. input the parameters of different scenes
+
+inparm_lt = lx_modify(q0_5_m = 0.00318, e0_m = 76.75,
+                      q0_5_f = 0.00264, e0_f = 82.22) #2020 Guangdong province, ##  3. Modified by Wilmoth Method from 'DemoTools'
+#inparm_lt = list(lt_1year(c(0:100),infile_pop[[1]][,4]),lt_1year(c(0:100),infile_pop[[1]][,5]))
+
+path_out_table = '~/Desktop/Pop_Projection/2_Output_Table'
+f.projection(infile_pop, inparm_scene, inparm_lt, path_out_table) # 4. Projection
+
+
+path_out_pic = c('~/desktop/Pop_Projection/3_Output_Pic_pop1',
+                 '~/desktop/Pop_Projection/3_Output_Pic_pop2')
+path_out = c('~/desktop/Pop_Projection')
+area_name = 'random county'
+pop_name = c('pop1','pop2')
+f.projection2word(path_out_table, path_out_pic, path_out,
+                  initial_year = 2020, x_by = 5, area_name, pop_name) # 5. Write the Output
+
+```
+

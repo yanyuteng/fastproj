@@ -1,0 +1,20 @@
+Package: fastproj
+Title: Fast Population Projection
+Version: 0.1.0
+Authors@R: 
+    person("Yu-Teng", "Yan", , "yanyuteng@ruc.edu.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0001-5739-7174"))
+Description: The development of this package is for fast and convenient population projection, and to provide corresponding Word reports.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports:
+    xlsx (>= 0.6.5),
+    DemoTools (>= 01.13.7),
+    tidyverse (>= 2.0.0),
+    flextable (>= 0.9.2),
+    officer (>= 0.6.2)
+Suggests:
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
