@@ -1,3 +1,7 @@
+---
+output: github_document
+---
+
 # fastproj
 
 The goal of fastproj is for fast and convenient population projection, and to provide corresponding Word reports.
