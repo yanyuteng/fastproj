@@ -2,7 +2,7 @@
 % Please edit documentation in R/write_pop_total_scene.R
 \name{write_pop_total_scene}
 \alias{write_pop_total_scene}
-\title{Title}
+\title{write_pop_total_scene}
 \usage{
 write_pop_total_scene(pop_t, path, move_include = FALSE)
 }
@@ -10,5 +10,5 @@ write_pop_total_scene(pop_t, path, move_include = FALSE)
 \item{move_include}{}
 }
 \description{
-Title
+write_pop_total_scene
 }

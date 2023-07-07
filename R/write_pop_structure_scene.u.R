@@ -1,4 +1,4 @@
-#' Title
+#' write_pop_structure_scene.u
 #'
 #' @param pop_s
 #' @param path

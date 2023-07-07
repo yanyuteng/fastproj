@@ -1,6 +1,5 @@
-# 移民按当年人口，不按上年人口转移
-#' Title
-#'
+#' pop_structure_immigration_cum.u
+#' @description Immigrants are transferred according to the population of the current year, not according to the population of the previous year.
 #' @param pop_s
 #' @param move_s
 #' @param urban

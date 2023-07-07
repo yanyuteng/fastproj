@@ -2,7 +2,7 @@
 % Please edit documentation in R/project_female_15t49_table.R
 \name{project_female_15t49_table}
 \alias{project_female_15t49_table}
-\title{Title}
+\title{project_female_15t49_table}
 \usage{
 project_female_15t49_table(initial_year, project_year, dt, dt_list)
 }
@@ -10,5 +10,10 @@ project_female_15t49_table(initial_year, project_year, dt, dt_list)
 \item{dt_list}{}
 }
 \description{
-Title
+project_female_15t49_table
+}
+\examples{
+p1 = project_table(initial_year, project_year, project_p[[1]])
+p1.s = project_female_15t49_table(initial_year, project_year, project_p[[1]], project_p_s[[1]])
+p1[[12]] = p1.s; rm(p1.s)
 }

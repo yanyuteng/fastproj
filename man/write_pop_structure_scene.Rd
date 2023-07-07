@@ -2,7 +2,7 @@
 % Please edit documentation in R/write_pop_structure_scene.R
 \name{write_pop_structure_scene}
 \alias{write_pop_structure_scene}
-\title{Title}
+\title{Output Population Structure in Different Scenarios}
 \usage{
 write_pop_structure_scene(pop_s, path, move_include = FALSE)
 }
@@ -10,5 +10,5 @@ write_pop_structure_scene(pop_s, path, move_include = FALSE)
 \item{move_include}{}
 }
 \description{
-Title
+Stable Population
 }

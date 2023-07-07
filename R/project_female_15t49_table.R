@@ -1,4 +1,4 @@
-#' Title
+#' project_female_15t49_table
 #'
 #' @param initial_year
 #' @param project_year
@@ -8,7 +8,9 @@
 #' @return
 #' @export
 #'
-#' @examples
+#' @examples p1 = project_table(initial_year, project_year, project_p[[1]])
+#' p1.s = project_female_15t49_table(initial_year, project_year, project_p[[1]], project_p_s[[1]])
+#' p1[[12]] = p1.s; rm(p1.s)
 project_female_15t49_table <- function(initial_year, project_year, dt, dt_list) {
   temp <- list()
   for (j in 1:3) {

@@ -2,7 +2,7 @@
 % Please edit documentation in R/pop_structure_immigration_cum.u.R
 \name{pop_structure_immigration_cum.u}
 \alias{pop_structure_immigration_cum.u}
-\title{Title}
+\title{pop_structure_immigration_cum.u}
 \usage{
 pop_structure_immigration_cum.u(
   pop_s,
@@ -20,5 +20,5 @@ pop_structure_immigration_cum.u(
 \item{srb}{}
 }
 \description{
-Title
+Immigrants are transferred according to the population of the current year, not according to the population of the previous year.
 }

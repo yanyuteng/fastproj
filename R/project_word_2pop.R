@@ -1,4 +1,4 @@
-#' Title
+#'
 #'
 #' @param dt1
 #' @param dt2
@@ -12,7 +12,13 @@
 #' @return
 #' @export
 #'
-#' @examples
+#' @examples path_out_pic = c('~/desktop/0_Projection/Pop_Projection/3_Output_Pic_pop1','~/desktop/0_Projection/Pop_Projection/3_Output_Pic_pop2')
+#'project_pic(p1, initial_year, project_year, x_by=5, path_out_pic[1])
+#'project_pic(p2, initial_year, project_year, x_by=5, path_out_pic[2])
+#'path_out = c('~/desktop/0_Projection/Pop_Projection')
+#'project_word_2pop(dt1=p1, dt2=p2, path_out_pic = path_out_pic, path_out = path_out,
+#'                  initial_year = initial_year, project_year = project_year,
+#'                  area_name = 'US', pop_name = c('White','Black'))
 project_word_2pop <- function(dt1, dt2, path_out_pic, path_out,
                               initial_year, project_year, area_name, pop_name) {
   library(flextable)

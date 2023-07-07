@@ -2,7 +2,7 @@
 % Please edit documentation in R/pop_total_initial.R
 \name{pop_total_initial}
 \alias{pop_total_initial}
-\title{Title}
+\title{pop_total_initial}
 \usage{
 pop_total_initial(project_year)
 }
@@ -10,5 +10,5 @@ pop_total_initial(project_year)
 \item{project_year}{}
 }
 \description{
-Title
+pop_total_initial
 }

@@ -2,7 +2,7 @@
 % Please edit documentation in R/read_pop.t.R
 \name{read_pop.t}
 \alias{read_pop.t}
-\title{Title}
+\title{Obtain Projection Population Summary Data from Excel}
 \usage{
 read_pop.t(path_out_table)
 }
@@ -10,5 +10,9 @@ read_pop.t(path_out_table)
 \item{path_out_table}{}
 }
 \description{
-Title
+Obtain Projection Population Summary Data from Excel
+}
+\examples{
+path_out_table = '~/Desktop/0_Projection/Pop_Projection/2_Output_Table'
+project_p = read_pop.t(path_out_table)
 }

@@ -2,7 +2,7 @@
 % Please edit documentation in R/f.pop_move_t.R
 \name{f.pop_move_t}
 \alias{f.pop_move_t}
-\title{Title}
+\title{Fast Obtain Population Summary Data include Immigration}
 \usage{
 f.pop_move_t(pop_move_s, project_year, age_group)
 }
@@ -10,5 +10,8 @@ f.pop_move_t(pop_move_s, project_year, age_group)
 \item{age_group}{}
 }
 \description{
-Title
+Fast Obtain Population Summary Data include Immigration
+}
+\examples{
+pop_move_t = f.pop_move_t(pop_move_s, project_year, age_group)
 }

@@ -2,7 +2,7 @@
 % Please edit documentation in R/pop_structure_initial_scene.R
 \name{pop_structure_initial_scene}
 \alias{pop_structure_initial_scene}
-\title{Title}
+\title{pop_structure_initial_scene}
 \usage{
 pop_structure_initial_scene(project_year, age_group)
 }
@@ -10,5 +10,5 @@ pop_structure_initial_scene(project_year, age_group)
 \item{age_group}{}
 }
 \description{
-Title
+pop_structure_initial_scene
 }

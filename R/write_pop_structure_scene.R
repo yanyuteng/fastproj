@@ -1,5 +1,5 @@
-#' Title
-#'
+#' Output Population Structure in Different Scenarios
+#' @description Stable Population
 #' @param pop_s
 #' @param path
 #' @param move_include

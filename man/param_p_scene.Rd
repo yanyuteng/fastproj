@@ -2,7 +2,7 @@
 % Please edit documentation in R/param_p_scene.R
 \name{param_p_scene}
 \alias{param_p_scene}
-\title{Title}
+\title{Obtain Parameters in Different Scenarios}
 \usage{
 param_p_scene(inparm_scene, type)
 }
@@ -10,5 +10,11 @@ param_p_scene(inparm_scene, type)
 \item{type}{}
 }
 \description{
-Title
+Obtain Parameters in Different Scenarios
+}
+\examples{
+move_net = param_p_scene(inparm_scene,'move')
+srb = param_p_scene(inparm_scene,'srb')
+project_year = length(inparm_scene[[1]][,1])
+age_group = length(infile_pop[[1]][,1])
 }

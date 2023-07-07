@@ -2,7 +2,7 @@
 % Please edit documentation in R/pop_structure_immigration_cum.R
 \name{pop_structure_immigration_cum}
 \alias{pop_structure_immigration_cum}
-\title{Title}
+\title{pop_structure_immigration_cum}
 \usage{
 pop_structure_immigration_cum(
   pop_s,
@@ -19,5 +19,5 @@ pop_structure_immigration_cum(
 \item{srb}{}
 }
 \description{
-Title
+pop_structure_immigration_cum
 }

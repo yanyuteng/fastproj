@@ -2,7 +2,7 @@
 % Please edit documentation in R/pop_total_cum_scene.R
 \name{pop_total_cum_scene}
 \alias{pop_total_cum_scene}
-\title{Title}
+\title{pop_total_cum_scene}
 \usage{
 pop_total_cum_scene(
   pop_t,
@@ -16,5 +16,5 @@ pop_total_cum_scene(
 \item{sex}{}
 }
 \description{
-Title
+pop_total_cum_scene
 }

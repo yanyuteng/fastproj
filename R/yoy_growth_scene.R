@@ -1,4 +1,4 @@
-#' Title
+#' Urbanization Rate trans to Year over Year Growth in Different Scenarios
 #'
 #' @param dt
 #'
@@ -6,7 +6,7 @@
 #' @export
 #'
 #' @examples
-mom_growth_scene <- function(dt) {
+yoy_growth_scene <- function(dt) {
   pl <- length(dt[[1]])
   temp <- c()
   temp2 <- list()

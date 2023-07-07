@@ -2,7 +2,7 @@
 % Please edit documentation in R/pop_structure_immigration_scene.R
 \name{pop_structure_immigration_scene}
 \alias{pop_structure_immigration_scene}
-\title{Title}
+\title{pop_structure_immigration_scene}
 \usage{
 pop_structure_immigration_scene(
   pop_s,
@@ -15,5 +15,5 @@ pop_structure_immigration_scene(
 \item{age_group}{}
 }
 \description{
-Title
+pop_structure_immigration_scene
 }

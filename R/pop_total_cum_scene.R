@@ -1,4 +1,4 @@
-#' Title
+#' pop_total_cum_scene
 #'
 #' @param pop_t
 #' @param pop_s

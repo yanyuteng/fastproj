@@ -2,7 +2,7 @@
 % Please edit documentation in R/project_table.R
 \name{project_table}
 \alias{project_table}
-\title{Title}
+\title{Table Projection Population}
 \usage{
 project_table(initial_year = 2020, project_year = 1, dt)
 }
@@ -10,5 +10,5 @@ project_table(initial_year = 2020, project_year = 1, dt)
 \item{dt}{}
 }
 \description{
-Title
+Table Projection Population
 }

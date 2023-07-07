@@ -2,13 +2,18 @@
 % Please edit documentation in R/lt_1year.R
 \name{lt_1year}
 \alias{lt_1year}
-\title{Title}
+\title{Build a life table}
 \usage{
 lt_1year(age_name, nMx)
 }
 \arguments{
-\item{nMx}{}
+\item{age_name}{age group}
+
+\item{nMx}{mortality}
+}
+\value{
+a dataframe
 }
 \description{
-Title
+Build a life table
 }

@@ -1,5 +1,5 @@
-#' Title
-#'
+#' Initial Baseline Population Structure Corresponding to Different Scenarios
+#' @description see pop_structure_baseline function
 #' @param pop_s
 #' @param infile
 #'

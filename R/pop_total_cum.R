@@ -1,4 +1,4 @@
-#' Title
+#' pop_total_cum
 #'
 #' @param pop_t
 #' @param pop_s

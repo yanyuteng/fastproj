@@ -1,4 +1,4 @@
-#' Title
+#' Plot Projection Population
 #'
 #' @param dt
 #' @param initial_year

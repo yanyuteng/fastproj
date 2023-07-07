@@ -1,11 +1,12 @@
-#' Title
+#' Obtain Projection Population Summary Data from Excel
 #'
 #' @param path_out_table
 #'
 #' @return
 #' @export
 #'
-#' @examples
+#' @examples path_out_table = '~/Desktop/0_Projection/Pop_Projection/2_Output_Table'
+#' project_p = read_pop.t(path_out_table)
 read_pop.t <- function(path_out_table) {
   path <- c(
     "/pop1_move_low.xlsx",

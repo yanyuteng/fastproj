@@ -2,7 +2,7 @@
 % Please edit documentation in R/Lx_p_list_scene.R
 \name{Lx_p_list_scene}
 \alias{Lx_p_list_scene}
-\title{Title}
+\title{Project Mortality Corresponding to Different Scenarios}
 \usage{
 Lx_p_list_scene(inparm_lt, inparm_scene, sex)
 }
@@ -10,5 +10,9 @@ Lx_p_list_scene(inparm_lt, inparm_scene, sex)
 \item{sex}{}
 }
 \description{
-Title
+see Lx_p function
+}
+\examples{
+Lx_male <- Lx_p_list_scene(inparm_lt, inparm_scene, 'male')
+Lx_female <- Lx_p_list_scene(inparm_lt, inparm_scene, 'female')
 }

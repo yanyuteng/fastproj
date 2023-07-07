@@ -1,4 +1,4 @@
-#' Title
+#' Fast Obtain Population Structure include Immigration
 #'
 #' @param pop_s
 #' @param project_year
@@ -12,7 +12,7 @@
 #' @return
 #' @export
 #'
-#' @examples
+#' @examples pop_move_s = f.pop_move_s(pop_s, project_year, age_group, Lx_male, Lx_female, asfr, srb, move_net)
 f.pop_move_s <- function(pop_s, project_year, age_group, Lx_male, Lx_female, asfr, srb, move_net) {
   # pop_structure_immigration_scene()基于封闭人口的比重分配，需要先计算封闭人口
   move_s <- pop_structure_immigration_scene(pop_s, move_net, project_year, age_group)

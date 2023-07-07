@@ -2,7 +2,7 @@
 % Please edit documentation in R/asfr_p.R
 \name{asfr_p}
 \alias{asfr_p}
-\title{Title}
+\title{Obtain ASFR parameter}
 \usage{
 asfr_p(project_year = 1, age_group = 101, age_asfr, tfr)
 }
@@ -10,5 +10,5 @@ asfr_p(project_year = 1, age_group = 101, age_asfr, tfr)
 \item{tfr}{}
 }
 \description{
-Title
+Obtain ASFR parameter
 }

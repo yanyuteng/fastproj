@@ -1,22 +1,4 @@
----
-output: github_document
----
-
-<!-- README.md is generated from README.Rmd. Please edit that file -->
-
-```{r, include = FALSE}
-knitr::opts_chunk$set(
-  collapse = TRUE,
-  comment = "#>",
-  fig.path = "man/figures/README-",
-  out.width = "100%"
-)
-```
-
 # fastproj
-
-<!-- badges: start -->
-<!-- badges: end -->
 
 The goal of fastproj is for fast and convenient population projection, and to provide corresponding Word reports.
 
@@ -31,9 +13,7 @@ library(fastproj)
 
 ## Example
 
-This is a basic example which shows you how to solve a common problem:
-
-```{r example}
+``` r
 library(fastproj)
 infile_pop = read_pop('~/desktop/Pop_Projection/1_Input/Data_Population.xlsx') # 1. input the baseline population
 
@@ -54,6 +34,4 @@ area_name = 'random county'
 pop_name = c('pop1','pop2')
 f.projection2word(path_out_table, path_out_pic, path_out,
                   initial_year = 2020, x_by = 5, area_name, pop_name) # 5. Write the Output
-
 ```
-

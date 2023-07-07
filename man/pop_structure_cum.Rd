@@ -2,7 +2,7 @@
 % Please edit documentation in R/pop_structure_cum.R
 \name{pop_structure_cum}
 \alias{pop_structure_cum}
-\title{Title}
+\title{Summary Projection Population}
 \usage{
 pop_structure_cum(
   pop_s,
@@ -18,5 +18,5 @@ pop_structure_cum(
 \item{srb}{}
 }
 \description{
-Title
+Summary Projection Population
 }

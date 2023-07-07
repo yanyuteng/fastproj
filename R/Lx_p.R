@@ -1,9 +1,9 @@
-#' Title
-#'
-#' @param ex_p
-#' @param lx_p
-#' @param axn
-#' @param age_group
+#' Project Mortality
+#' @description Using the semi-approximate solution method, the function is rewritten from Wang Guangzhou.
+#' @param ex_p Life Expectancy Parameters
+#' @param lx_p Lx Parameters
+#' @param axn axn Parameters
+#' @param age_group age group
 #'
 #' @return
 #' @export

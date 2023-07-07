@@ -2,7 +2,7 @@
 % Please edit documentation in R/f.pop_t.R
 \name{f.pop_t}
 \alias{f.pop_t}
-\title{Title}
+\title{Fast Converting Population Structure into Summary Data}
 \usage{
 f.pop_t(pop_s, project_year, age_group)
 }
@@ -10,5 +10,8 @@ f.pop_t(pop_s, project_year, age_group)
 \item{age_group}{}
 }
 \description{
-Title
+Aggregated data, which displays as 5 age group data
+}
+\examples{
+pop_t = f.pop_t(pop_s, project_year, age_group)
 }

@@ -1,11 +1,11 @@
-#' Title
+#' Obtain Baseline Population from Excel
 #'
 #' @param path
 #'
 #' @return a list
 #' @export
 #'
-#' @examples
+#' @examples infile_pop = read_pop('~/desktop/Pop_Projection/1_Input/Data_Population.xlsx')
 read_pop <- function(path) {
   infile_pop <- list()
   for (i in 1:2) {

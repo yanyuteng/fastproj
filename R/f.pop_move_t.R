@@ -1,4 +1,4 @@
-#' Title
+#' Fast Obtain Population Summary Data include Immigration
 #'
 #' @param pop_move_s
 #' @param project_year
@@ -7,7 +7,7 @@
 #' @return
 #' @export
 #'
-#' @examples
+#' @examples pop_move_t = f.pop_move_t(pop_move_s, project_year, age_group)
 f.pop_move_t <- function(pop_move_s, project_year, age_group) {
   pop_move_t <- pop_total_initial_scene(project_year)
   pop_move_t <- pop_total_cum_scene(pop_move_t, pop_move_s,

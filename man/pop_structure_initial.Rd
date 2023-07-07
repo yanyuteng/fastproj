@@ -2,7 +2,7 @@
 % Please edit documentation in R/pop_structure_initial.R
 \name{pop_structure_initial}
 \alias{pop_structure_initial}
-\title{Title}
+\title{pop_structure_initial}
 \usage{
 pop_structure_initial(project_year = 1, age_group = 101)
 }
@@ -10,5 +10,5 @@ pop_structure_initial(project_year = 1, age_group = 101)
 \item{age_group}{}
 }
 \description{
-Title
+pop_structure_initial
 }

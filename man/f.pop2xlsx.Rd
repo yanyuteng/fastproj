@@ -2,7 +2,7 @@
 % Please edit documentation in R/f.pop2xlsx.R
 \name{f.pop2xlsx}
 \alias{f.pop2xlsx}
-\title{Title}
+\title{Fast Output 2 Population to Excel}
 \usage{
 f.pop2xlsx(path_out_table, pop_s, pop_move_s, pop_t, pop_move_t)
 }
@@ -10,5 +10,9 @@ f.pop2xlsx(path_out_table, pop_s, pop_move_s, pop_t, pop_move_t)
 \item{pop_move_t}{}
 }
 \description{
-Title
+Fast Output 2 Population to Excel
+}
+\examples{
+path_out_table = '~/Desktop/0_Projection/Pop_Projection/2_Output_Table'
+f.pop2xlsx(path_out_table, pop_s, pop_move_s, pop_t, pop_move_t)
 }

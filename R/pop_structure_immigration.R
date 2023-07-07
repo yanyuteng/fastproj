@@ -1,6 +1,5 @@
-# 移民分年龄别分布按当年人口结构
-#' Title
-#'
+#' pop_structure_immigration
+#' @description Immigrants are distributed by age according to the current year's population structure.
 #' @param pop_s
 #' @param move_net
 #' @param age_group

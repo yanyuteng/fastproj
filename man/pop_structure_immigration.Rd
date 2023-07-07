@@ -2,7 +2,7 @@
 % Please edit documentation in R/pop_structure_immigration.R
 \name{pop_structure_immigration}
 \alias{pop_structure_immigration}
-\title{Title}
+\title{pop_structure_immigration}
 \usage{
 pop_structure_immigration(pop_s, move_net, age_group = 101, project_year = 1)
 }
@@ -10,5 +10,5 @@ pop_structure_immigration(pop_s, move_net, age_group = 101, project_year = 1)
 \item{project_year}{}
 }
 \description{
-Title
+Immigrants are distributed by age according to the current year's population structure.
 }

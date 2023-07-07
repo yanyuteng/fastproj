@@ -2,7 +2,7 @@
 % Please edit documentation in R/pop_total_initial_scene.R
 \name{pop_total_initial_scene}
 \alias{pop_total_initial_scene}
-\title{Title}
+\title{pop_total_initial_scene}
 \usage{
 pop_total_initial_scene(project_year)
 }
@@ -10,5 +10,5 @@ pop_total_initial_scene(project_year)
 \item{project_year}{}
 }
 \description{
-Title
+pop_total_initial_scene
 }

@@ -1,4 +1,4 @@
-#' Title
+#' Initial Baseline Population Structure
 #'
 #' @param pop_s
 #' @param infile

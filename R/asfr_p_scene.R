@@ -1,4 +1,4 @@
-#' Title
+#' Obtain ASFR parameter in Different Scenarios
 #'
 #' @param infile
 #' @param inparm_scene
@@ -6,7 +6,7 @@
 #' @return
 #' @export
 #'
-#' @examples
+#' @examples asfr = asfr_p_scene(infile_pop, inparm_scene)
 asfr_p_scene <- function(infile, inparm_scene) {
   temp <- list(list(), list(), list(), list(), list(), list())
 

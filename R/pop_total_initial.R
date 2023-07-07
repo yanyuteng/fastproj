@@ -1,4 +1,4 @@
-#' Title
+#' pop_total_initial
 #'
 #' @param project_year
 #'

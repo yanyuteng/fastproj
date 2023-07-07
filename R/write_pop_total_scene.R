@@ -1,4 +1,4 @@
-#' Title
+#' write_pop_total_scene
 #'
 #' @param pop_t
 #' @param path

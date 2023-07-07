@@ -2,7 +2,7 @@
 % Please edit documentation in R/project_pic.R
 \name{project_pic}
 \alias{project_pic}
-\title{Title}
+\title{Plot Projection Population}
 \usage{
 project_pic(dt, initial_year, project_year, x_by, path_out_pic)
 }
@@ -10,5 +10,5 @@ project_pic(dt, initial_year, project_year, x_by, path_out_pic)
 \item{path_out_pic}{}
 }
 \description{
-Title
+Plot Projection Population
 }

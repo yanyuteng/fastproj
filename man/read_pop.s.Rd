@@ -2,7 +2,7 @@
 % Please edit documentation in R/read_pop.s.R
 \name{read_pop.s}
 \alias{read_pop.s}
-\title{Title}
+\title{Obtain Projection Population Structure from Excel}
 \usage{
 read_pop.s(path_out_table, project_year)
 }
@@ -10,5 +10,8 @@ read_pop.s(path_out_table, project_year)
 \item{project_year}{}
 }
 \description{
-Title
+Obtain Projection Population Structure from Excel
+}
+\examples{
+project_p_s = read_pop.s(path_out_table,project_year)
 }

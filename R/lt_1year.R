@@ -1,9 +1,9 @@
-#' Title
+#' Build a life table
 #'
-#' @param age_name
-#' @param nMx
+#' @param age_name age group
+#' @param nMx mortality
 #'
-#' @return
+#' @return a dataframe
 #' @export
 #'
 #' @examples

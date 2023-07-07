@@ -1,5 +1,5 @@
-#' Title
-#'
+#' Project Mortality Corresponding to Different Scenarios
+#' @description see Lx_p function
 #' @param inparm_lt
 #' @param inparm_scene
 #' @param sex
@@ -7,7 +7,8 @@
 #' @return
 #' @export
 #'
-#' @examples
+#' @examples Lx_male <- Lx_p_list_scene(inparm_lt, inparm_scene, 'male')
+#' Lx_female <- Lx_p_list_scene(inparm_lt, inparm_scene, 'female')
 Lx_p_list_scene <- function(inparm_lt, inparm_scene, sex) {
   temp <- list(list(), list(), list(), list(), list(), list())
   ex_p <- list()

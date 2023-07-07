@@ -1,4 +1,4 @@
-#' Title
+#' Obtain ASFR parameter
 #'
 #' @param project_year
 #' @param age_group

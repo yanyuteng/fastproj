@@ -2,7 +2,7 @@
 % Please edit documentation in R/pop_structure_baseline_scene.R
 \name{pop_structure_baseline_scene}
 \alias{pop_structure_baseline_scene}
-\title{Title}
+\title{Initial Baseline Population Structure Corresponding to Different Scenarios}
 \usage{
 pop_structure_baseline_scene(pop_s, infile)
 }
@@ -10,5 +10,5 @@ pop_structure_baseline_scene(pop_s, infile)
 \item{infile}{}
 }
 \description{
-Title
+see pop_structure_baseline function
 }

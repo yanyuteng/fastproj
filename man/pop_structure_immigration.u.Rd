@@ -2,7 +2,7 @@
 % Please edit documentation in R/pop_structure_immigration.u.R
 \name{pop_structure_immigration.u}
 \alias{pop_structure_immigration.u}
-\title{Title}
+\title{pop_structure_immigration.u}
 \usage{
 pop_structure_immigration.u(
   pop_s,
@@ -16,5 +16,5 @@ pop_structure_immigration.u(
 \item{project_year}{}
 }
 \description{
-Title
+The distribution of immigrants by age is based on the population structure of the year, and the urbanization rate is assumed to be evenly distributed by age.
 }

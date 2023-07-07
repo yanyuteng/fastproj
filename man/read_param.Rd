@@ -2,7 +2,7 @@
 % Please edit documentation in R/read_param.R
 \name{read_param}
 \alias{read_param}
-\title{Title}
+\title{Obtain Projection Parameters from Excel}
 \usage{
 read_param(path)
 }
@@ -13,5 +13,8 @@ read_param(path)
 a list
 }
 \description{
-Title
+Obtain Projection Parameters from Excel
+}
+\examples{
+inparm_scene = read_param('~/desktop/Pop_Projection/1_Input/Data_Parameter.xlsx')
 }

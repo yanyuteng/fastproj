@@ -1,5 +1,5 @@
-#' Title
-#'
+#' Summary Projection Population Corresponding to Different Scenarios
+#' @description see pop_structure_cum function
 #' @param pop_s
 #' @param project_year
 #' @param age_group

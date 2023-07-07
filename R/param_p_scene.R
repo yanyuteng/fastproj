@@ -1,4 +1,4 @@
-#' Title
+#' Obtain Parameters in Different Scenarios
 #'
 #' @param inparm_scene
 #' @param type
@@ -6,7 +6,10 @@
 #' @return
 #' @export
 #'
-#' @examples
+#' @examples move_net = param_p_scene(inparm_scene,'move')
+#' srb = param_p_scene(inparm_scene,'srb')
+#' project_year = length(inparm_scene[[1]][,1])
+#' age_group = length(infile_pop[[1]][,1])
 param_p_scene <- function(inparm_scene, type) {
   if (type == "srb") {
     temp <- list()

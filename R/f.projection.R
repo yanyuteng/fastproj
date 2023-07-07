@@ -1,4 +1,4 @@
-#' Title
+#' Fast Projection and Output to Excel
 #'
 #' @param infile_pop
 #' @param inparm_scene
@@ -8,7 +8,8 @@
 #' @return
 #' @export
 #'
-#' @examples
+#' @examples path_out_table = '~/Desktop/Pop_Projection/2_Output_Table'
+#' f.projection(infile_pop, inparm_scene, inparm_lt, path_out_table)
 f.projection <- function(infile_pop, inparm_scene, inparm_lt, path_out_table) {
   if (dir.exists(path_out_table) == TRUE) {
     unlink(path_out_table, recursive = TRUE)

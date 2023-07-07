@@ -1,6 +1,5 @@
-# 移民分年龄别分布按当年人口结构，城市化率假定各年龄段均匀分布
-#' Title
-#'
+#' pop_structure_immigration.u
+#' @description The distribution of immigrants by age is based on the population structure of the year, and the urbanization rate is assumed to be evenly distributed by age.
 #' @param pop_s
 #' @param move_net
 #' @param urban

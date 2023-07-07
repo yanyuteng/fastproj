@@ -2,7 +2,7 @@
 % Please edit documentation in R/pop_structure_cum_scene.R
 \name{pop_structure_cum_scene}
 \alias{pop_structure_cum_scene}
-\title{Title}
+\title{Summary Projection Population Corresponding to Different Scenarios}
 \usage{
 pop_structure_cum_scene(
   pop_s,
@@ -18,5 +18,5 @@ pop_structure_cum_scene(
 \item{srb}{}
 }
 \description{
-Title
+see pop_structure_cum function
 }

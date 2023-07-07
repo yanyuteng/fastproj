@@ -2,13 +2,19 @@
 % Please edit documentation in R/Lx_p.R
 \name{Lx_p}
 \alias{Lx_p}
-\title{Title}
+\title{Project Mortality}
 \usage{
 Lx_p(ex_p, lx_p, axn, age_group = 101)
 }
 \arguments{
-\item{age_group}{}
+\item{ex_p}{Life Expectancy Parameters}
+
+\item{lx_p}{Lx Parameters}
+
+\item{axn}{axn Parameters}
+
+\item{age_group}{age group}
 }
 \description{
-Title
+Using the semi-approximate solution method, the function is rewritten from Wang Guangzhou.
 }

@@ -4,7 +4,7 @@ Version: 0.1.0
 Authors@R: 
     person("Yu-Teng", "Yan", , "yanyuteng@ruc.edu.com", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0001-5739-7174"))
-Description: The development of this package is for fast and convenient population projection, and to provide corresponding Word reports.
+Description: This package is for fast and convenient population projection, and to provide corresponding Word reports.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)

@@ -1,4 +1,4 @@
-#' Title
+#' pop_structure_initial_scene
 #'
 #' @param project_year
 #' @param age_group

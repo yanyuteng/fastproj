@@ -1,4 +1,4 @@
-#' Title
+#' Obtain Projection Population Structure from Excel
 #'
 #' @param path_out_table
 #' @param project_year
@@ -6,7 +6,7 @@
 #' @return
 #' @export
 #'
-#' @examples
+#' @examples project_p_s = read_pop.s(path_out_table,project_year)
 read_pop.s <- function(path_out_table, project_year) {
   path <- c(
     "/pop1_move_agegroup_low.xlsx",

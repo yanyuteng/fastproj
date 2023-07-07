@@ -1,15 +1,16 @@
-#' Title
-#'
+#' Modify Mortality
+#' @description Wilmoth method code from 'DemoTools'
 #' @param q0_5_m
 #' @param e0_m
 #' @param q0_5_f
 #' @param e0_f
-#' @param method
+#' @param method 'Wilmoth'
 #'
-#' @return
+#' @return a list
 #' @export
 #'
-#' @examples
+#' @examples inparm_lt = lx_modify(q0_5_m = 0.00318, e0_m = 76.75, q0_5_f = 0.00264, e0_f = 82.22)
+#' #inparm_lt = list(lt_1year(c(0:100),infile_pop[[1]][,4]),lt_1year(c(0:100),infile_pop[[1]][,5]))
 lx_modify <- function(q0_5_m, e0_m, q0_5_f, e0_f, method = "wilmoth") {
   qx_male <- lt_model_lq(Sex = "m", q0_5 = q0_5_m, e0 = e0_m)
   qx_female <- lt_model_lq(Sex = "f", q0_5 = q0_5_f, e0 = e0_f)

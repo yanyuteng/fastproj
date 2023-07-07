@@ -1,4 +1,4 @@
-#' Title
+#' pop_total_initial_scene
 #'
 #' @param project_year
 #'

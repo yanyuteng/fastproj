@@ -2,7 +2,7 @@
 % Please edit documentation in R/read_pop.R
 \name{read_pop}
 \alias{read_pop}
-\title{Title}
+\title{Obtain Baseline Population from Excel}
 \usage{
 read_pop(path)
 }
@@ -13,5 +13,8 @@ read_pop(path)
 a list
 }
 \description{
-Title
+Obtain Baseline Population from Excel
+}
+\examples{
+infile_pop = read_pop('~/desktop/Pop_Projection/1_Input/Data_Population.xlsx')
 }

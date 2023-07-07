@@ -2,7 +2,7 @@
 % Please edit documentation in R/f.pop_move_s.R
 \name{f.pop_move_s}
 \alias{f.pop_move_s}
-\title{Title}
+\title{Fast Obtain Population Structure include Immigration}
 \usage{
 f.pop_move_s(
   pop_s,
@@ -19,5 +19,8 @@ f.pop_move_s(
 \item{move_net}{}
 }
 \description{
-Title
+Fast Obtain Population Structure include Immigration
+}
+\examples{
+pop_move_s = f.pop_move_s(pop_s, project_year, age_group, Lx_male, Lx_female, asfr, srb, move_net)
 }

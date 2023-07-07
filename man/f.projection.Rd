@@ -2,7 +2,7 @@
 % Please edit documentation in R/f.projection.R
 \name{f.projection}
 \alias{f.projection}
-\title{Title}
+\title{Fast Projection and Output to Excel}
 \usage{
 f.projection(infile_pop, inparm_scene, inparm_lt, path_out_table)
 }
@@ -10,5 +10,9 @@ f.projection(infile_pop, inparm_scene, inparm_lt, path_out_table)
 \item{path_out_table}{}
 }
 \description{
-Title
+Fast Projection and Output to Excel
+}
+\examples{
+path_out_table = '~/Desktop/Pop_Projection/2_Output_Table'
+f.projection(infile_pop, inparm_scene, inparm_lt, path_out_table)
 }

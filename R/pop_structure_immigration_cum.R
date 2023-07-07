@@ -1,4 +1,4 @@
-#' Title
+#' pop_structure_immigration_cum
 #'
 #' @param pop_s
 #' @param move_s

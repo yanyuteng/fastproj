@@ -2,7 +2,7 @@
 % Please edit documentation in R/pop_total_cum.R
 \name{pop_total_cum}
 \alias{pop_total_cum}
-\title{Title}
+\title{pop_total_cum}
 \usage{
 pop_total_cum(pop_t, pop_s, project_year = 1, age_group = 101)
 }
@@ -10,5 +10,5 @@ pop_total_cum(pop_t, pop_s, project_year = 1, age_group = 101)
 \item{age_group}{}
 }
 \description{
-Title
+pop_total_cum
 }

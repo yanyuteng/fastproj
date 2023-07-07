@@ -1,17 +1,24 @@
-#' Title
-#'
-#' @param path_out_table
-#' @param path_out_pic
-#' @param path_out
-#' @param initial_year
-#' @param x_by
-#' @param area_name
-#' @param pop_name
+#' Fast Projection and Output to Word
+#' @description Based on the f.projection function, before run this function, the user should
+#' run f.projection to get the output in xlsx format
+#' @param path_out_table the excel output path
+#' @param path_out_pic the picture output path
+#' @param path_out the word output path
+#' @param initial_year the initial projection year
+#' @param x_by the plot year intervel
+#' @param area_name the projection area/district
+#' @param pop_name the projection 2 population names
 #'
 #' @return
 #' @export
 #'
-#' @examples
+#' @examples path_out_pic = c('~/desktop/Pop_Projection/3_Output_Pic_pop1','
+#' ~/desktop/Pop_Projection/3_Output_Pic_pop2')
+#' path_out = c('~/desktop/Pop_Projection')
+#' area_name = 'random county'
+#' pop_name = c('pop1','pop2')
+#' f.projection2word(path_out_table, path_out_pic, path_out,
+#' initial_year = 2020, x_by = 5, area_name, pop_name)
 f.projection2word <- function(path_out_table, path_out_pic, path_out,
                               initial_year = 2020, x_by = 5,
                               area_name, pop_name) {

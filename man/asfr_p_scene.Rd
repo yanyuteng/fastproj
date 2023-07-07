@@ -2,7 +2,7 @@
 % Please edit documentation in R/asfr_p_scene.R
 \name{asfr_p_scene}
 \alias{asfr_p_scene}
-\title{Title}
+\title{Obtain ASFR parameter in Different Scenarios}
 \usage{
 asfr_p_scene(infile, inparm_scene)
 }
@@ -10,5 +10,8 @@ asfr_p_scene(infile, inparm_scene)
 \item{inparm_scene}{}
 }
 \description{
-Title
+Obtain ASFR parameter in Different Scenarios
+}
+\examples{
+asfr = asfr_p_scene(infile_pop, inparm_scene)
 }

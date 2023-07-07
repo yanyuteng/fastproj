@@ -1,5 +1,5 @@
-#' Title
-#'
+#' Fast Obtain Population Structure
+#' @description Stable Population exclude immigration
 #' @param infile_pop
 #' @param project_year
 #' @param age_group
@@ -11,7 +11,7 @@
 #' @return
 #' @export
 #'
-#' @examples
+#' @examples pop_s = f.pop_s(infile_pop, project_year, age_group, Lx_male, Lx_female, asfr, srb)
 f.pop_s <- function(infile_pop, project_year, age_group, Lx_male, Lx_female, asfr, srb) {
   # 1. Project Baseline
   pop_s <- pop_structure_initial_scene(project_year, age_group)

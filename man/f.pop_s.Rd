@@ -2,7 +2,7 @@
 % Please edit documentation in R/f.pop_s.R
 \name{f.pop_s}
 \alias{f.pop_s}
-\title{Title}
+\title{Fast Obtain Population Structure}
 \usage{
 f.pop_s(infile_pop, project_year, age_group, Lx_male, Lx_female, asfr, srb)
 }
@@ -10,5 +10,8 @@ f.pop_s(infile_pop, project_year, age_group, Lx_male, Lx_female, asfr, srb)
 \item{srb}{}
 }
 \description{
-Title
+Stable Population exclude immigration
+}
+\examples{
+pop_s = f.pop_s(infile_pop, project_year, age_group, Lx_male, Lx_female, asfr, srb)
 }

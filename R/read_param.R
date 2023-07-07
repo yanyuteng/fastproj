@@ -1,11 +1,11 @@
-#' Title
+#' Obtain Projection Parameters from Excel
 #'
 #' @param path
 #'
 #' @return a list
 #' @export
 #'
-#' @examples
+#' @examples inparm_scene = read_param('~/desktop/Pop_Projection/1_Input/Data_Parameter.xlsx')
 read_param <- function(path) {
   inparm_scene <- list()
   for (i in 1:6) {
