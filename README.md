@@ -1,16 +1,10 @@
----
-output: 
-  html_document:
-    keep_md: true
----
 
 # fastproj
 
-The goal of fastproj is for fast and convenient population projection, and to provide corresponding Word reports.
+The goal of fastproj is for fast and convenient population projection,
+and to provide corresponding Word reports.
 
 ## Installation
-
-You can install the development version of fastproj like so:
 
 ``` r
 devtools::install_github("yanyuteng/fastproj")
