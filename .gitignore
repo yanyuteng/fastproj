@@ -1,2 +1,6 @@
+# docs
+# ignore files
 .Rproj.user
-docs
+.Rhistory
+.Rbuildignore
+.Rprofile
