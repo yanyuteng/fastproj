@@ -43,16 +43,68 @@
         <input type="search" class="form-control me-sm-2" aria-label="Toggle navigation" name="search-input" data-search-index="search.json" id="search-input" placeholder="Search for" autocomplete="off">
 </form>
 
-      <ul class="navbar-nav"></ul>
+      <ul class="navbar-nav">
+<li class="nav-item">
+  <a class="external-link nav-link" href="https://github.com/yanyuteng/fastproj/" aria-label="github">
+    <span class="fab fa fab fa-github fa-lg"></span>
+     
+  </a>
+</li>
+      </ul>
 </div>
 
     
   </div>
 </nav><div class="container template-home">
 <div class="row">
-  <main id="main" class="col-md-9">
-This package is for fast and convenient population projection, and to provide corresponding Word reports.
-  </main><aside class="col-md-3"><div class="license">
+  <main id="main" class="col-md-9"><div class="section level1">
+<div class="page-header"><h1 id="fastproj">fastproj<a class="anchor" aria-label="anchor" href="#fastproj"></a>
+</h1></div>
+<p>The goal of fastproj is for fast and convenient population projection, and to provide corresponding Word reports.</p>
+<div class="section level2">
+<h2 id="installation">Installation<a class="anchor" aria-label="anchor" href="#installation"></a>
+</h2>
+<p>You can install the development version of fastproj like so:</p>
+<div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="fu">devtools</span><span class="fu">::</span><span class="fu"><a href="https://remotes.r-lib.org/reference/install_github.html" class="external-link">install_github</a></span><span class="op">(</span><span class="st">"yanyuteng/fastproj"</span><span class="op">)</span></span>
+<span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/yanyuteng/fastproj" class="external-link">fastproj</a></span><span class="op">)</span></span></code></pre></div>
+</div>
+<div class="section level2">
+<h2 id="example">Example<a class="anchor" aria-label="anchor" href="#example"></a>
+</h2>
+<div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/yanyuteng/fastproj" class="external-link">fastproj</a></span><span class="op">)</span></span>
+<span><span class="co">#infile_pop = read_pop('~/Pop_Projection/1_Input/Data_Population.xlsx') # 1. input the baseline population</span></span>
+<span><span class="fu"><a href="https://rdrr.io/r/utils/head.html" class="external-link">head</a></span><span class="op">(</span><span class="va">infile_pop</span><span class="op">[[</span><span class="fl">1</span><span class="op">]</span><span class="op">]</span><span class="op">)</span></span>
+<span><span class="co">#inparm_scene = read_param('~/Pop_Projection/1_Input/Data_Parameter.xlsx') # 2. input the parameters of different scenes</span></span>
+<span><span class="fu"><a href="https://rdrr.io/r/utils/head.html" class="external-link">head</a></span><span class="op">(</span><span class="va">inparm_scene</span><span class="op">[[</span><span class="fl">1</span><span class="op">]</span><span class="op">]</span><span class="op">)</span></span>
+<span></span>
+<span><span class="va">inparm_lt</span> <span class="op">=</span> <span class="fu"><a href="reference/lx_modify.html">lx_modify</a></span><span class="op">(</span>q0_5_m <span class="op">=</span> <span class="fl">0.00318</span>, e0_m <span class="op">=</span> <span class="fl">76.75</span>,</span>
+<span>                      q0_5_f <span class="op">=</span> <span class="fl">0.00264</span>, e0_f <span class="op">=</span> <span class="fl">82.22</span><span class="op">)</span> <span class="co">#2020 Guangdong province, ##  3. Modified by Wilmoth Method from 'DemoTools'</span></span>
+<span><span class="co">#inparm_lt = list(lt_1year(c(0:100),infile_pop[[1]][,4]),lt_1year(c(0:100),infile_pop[[1]][,5]))</span></span>
+<span></span>
+<span><span class="va">path_out_table</span> <span class="op">=</span> <span class="st">'~/Desktop/Pop_Projection/2_Output_Table'</span></span>
+<span><span class="fu"><a href="reference/f.projection.html">f.projection</a></span><span class="op">(</span><span class="va">infile_pop</span>, <span class="va">inparm_scene</span>, <span class="va">inparm_lt</span>, <span class="va">path_out_table</span><span class="op">)</span> <span class="co"># 4. Projection</span></span>
+<span></span>
+<span></span>
+<span><span class="va">path_out_pic</span> <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="st">'~/Pop_Projection/3_Output_Pic_pop1'</span>,</span>
+<span>                 <span class="st">'~/Pop_Projection/3_Output_Pic_pop2'</span><span class="op">)</span></span>
+<span><span class="va">path_out</span> <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="st">'~/Pop_Projection'</span><span class="op">)</span></span>
+<span><span class="va">area_name</span> <span class="op">=</span> <span class="st">'Guangdong Province'</span></span>
+<span><span class="va">pop_name</span> <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="st">'Changzhu'</span>,<span class="st">'Huji'</span><span class="op">)</span></span>
+<span><span class="fu"><a href="reference/f.projection2word.html">f.projection2word</a></span><span class="op">(</span><span class="va">path_out_table</span>, <span class="va">path_out_pic</span>, <span class="va">path_out</span>,</span>
+<span>                  initial_year <span class="op">=</span> <span class="fl">2020</span>, x_by <span class="op">=</span> <span class="fl">5</span>, <span class="va">area_name</span>, <span class="va">pop_name</span><span class="op">)</span> <span class="co"># 5. Write the Output</span></span></code></pre></div>
+</div>
+</div>
+  </main><aside class="col-md-3"><div class="links">
+<h2 data-toc-skip>Links</h2>
+<ul class="list-unstyled">
+<li><a href="https://github.com/yanyuteng/fastproj/" class="external-link">Browse source code</a></li>
+<li><a href="https://github.com/yanyuteng/fastproj/issues" class="external-link">Report a bug</a></li>
+</ul>
+</div>
+
+<div class="license">
 <h2 data-toc-skip>License</h2>
 <ul class="list-unstyled">
 <li><a href="LICENSE.html">Full license</a></li>
